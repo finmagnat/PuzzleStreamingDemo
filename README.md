@@ -7,7 +7,10 @@
 ---
 
 ### Overview
-The project demonstrates a **Hub** scene that streams two sub-scenes (`Zone_A`, `Zone_B`) using **Unity Addressables** (additive loading/unloading).  
+The project demonstrates a **Hub** scene that streams two sub-scenes (`Zone_A`, `Zone_B`) using **Unity Addressables** (additive loading/unloading). 
+
+![Addressables Groups](Screenshots/AddressablesGroups.jpg)
+ 
 When the player approaches a zone, it loads asynchronously; moving away unloads it safely.  
 Streaming is handled by the `ZoneStreamer` script.
 
